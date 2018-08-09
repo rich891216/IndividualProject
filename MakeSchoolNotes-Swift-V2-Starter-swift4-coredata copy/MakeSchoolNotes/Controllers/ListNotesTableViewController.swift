@@ -37,7 +37,19 @@ class ListNotesTableViewController: UITableViewController {
         let note = notes[indexPath.row]
         cell.noteTitleLabel.text = note.title
         
+        if cell.noteTitleLabel.text == "" {
+            cell.noteTitleLabel.text = "Untitled Document"
+        }
+        
         cell.noteModificationTimeLabel.text = note.modificationTime?.convertToString() ?? "unknown"
+        
+        cell.noteContentLabel.text = note.content
+        
+        if cell.noteContentLabel.text == "" {
+            cell.noteContentLabel.text = "No Content"
+        }
+        
+        
         
         return cell
     }
@@ -52,7 +64,7 @@ class ListNotesTableViewController: UITableViewController {
             // 2
             let note = notes[indexPath.row]
             // 3
-            let destination = segue.destination as! DisplayNoteViewController
+            let destination = segue.destination as! DisplayFinishedNoteViewController
             //4
             destination.note = note
             

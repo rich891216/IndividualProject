@@ -15,7 +15,11 @@
 		2E4A07AB1C42F497007F415F /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A07AA1C42F497007F415F /* DisplayNoteViewController.swift */; };
 		2E4A07AF1C42F539007F415F /* Date+convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A07AE1C42F539007F415F /* Date+convertToString.swift */; };
 		2E4A07B11C42F599007F415F /* ListNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A07B01C42F599007F415F /* ListNotesTableViewCell.swift */; };
+		5AB114E0A3557D10C8FC30CE /* Pods_MakeSchoolNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210EBE43A38696BE1FD1D5FD /* Pods_MakeSchoolNotes.framework */; };
 		70140B2720F4237400A190D5 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70140B2620F4237400A190D5 /* CoreDataHelper.swift */; };
+		701E21B9211374AE00F6E4ED /* TransferNoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E21B8211374AE00F6E4ED /* TransferNoteDelegate.swift */; };
+		701E21BD2114C1BD00F6E4ED /* DisplayFinishedNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E21BC2114C1BD00F6E4ED /* DisplayFinishedNoteViewController.swift */; };
+		701E21BF2114CB1500F6E4ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E21BE2114CB1500F6E4ED /* MainViewController.swift */; };
 		7026B5BB210B7C3D003B4E67 /* TimerCountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026B5BA210B7C3D003B4E67 /* TimerCountDown.swift */; };
 		7026B5BE210F819F003B4E67 /* FailedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026B5BD210F819F003B4E67 /* FailedResultsViewController.swift */; };
 		7026B5C0210F81B3003B4E67 /* FinishedResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026B5BF210F81B3003B4E67 /* FinishedResultViewController.swift */; };
@@ -36,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		210EBE43A38696BE1FD1D5FD /* Pods_MakeSchoolNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeSchoolNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4A07901C42F3B0007F415F /* MakeSchoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeSchoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4A07931C42F3B0007F415F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E4A07981C42F3B0007F415F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,11 +51,16 @@
 		2E4A07AA1C42F497007F415F /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
 		2E4A07AE1C42F539007F415F /* Date+convertToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+convertToString.swift"; sourceTree = "<group>"; };
 		2E4A07B01C42F599007F415F /* ListNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCell.swift; sourceTree = "<group>"; };
+		33F798D1CDC817BEF0912497 /* Pods-MakeSchoolNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolNotes/Pods-MakeSchoolNotes.release.xcconfig"; sourceTree = "<group>"; };
 		70140B2620F4237400A190D5 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		701E21B8211374AE00F6E4ED /* TransferNoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferNoteDelegate.swift; sourceTree = "<group>"; };
+		701E21BC2114C1BD00F6E4ED /* DisplayFinishedNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFinishedNoteViewController.swift; sourceTree = "<group>"; };
+		701E21BE2114CB1500F6E4ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7026B5BA210B7C3D003B4E67 /* TimerCountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCountDown.swift; sourceTree = "<group>"; };
 		7026B5BD210F819F003B4E67 /* FailedResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedResultsViewController.swift; sourceTree = "<group>"; };
 		7026B5BF210F81B3003B4E67 /* FinishedResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedResultViewController.swift; sourceTree = "<group>"; };
 		848490D21D68F5610043C60B /* MakeSchoolNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakeSchoolNotes.xcdatamodel; sourceTree = "<group>"; };
+		FDD9CE506510B6367F895ACC /* Pods-MakeSchoolNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolNotes/Pods-MakeSchoolNotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +68,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB114E0A3557D10C8FC30CE /* Pods_MakeSchoolNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		249D3DB6FEE05A20ECF90530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				210EBE43A38696BE1FD1D5FD /* Pods_MakeSchoolNotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E4A07871C42F3B0007F415F = {
 			isa = PBXGroup;
 			children = (
 				2E4A07921C42F3B0007F415F /* MakeSchoolNotes */,
 				2E4A07911C42F3B0007F415F /* Products */,
+				42E0E3A43BC73DC15D496BB7 /* Pods */,
+				249D3DB6FEE05A20ECF90530 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,8 @@
 				2E4A07AA1C42F497007F415F /* DisplayNoteViewController.swift */,
 				7026B5BD210F819F003B4E67 /* FailedResultsViewController.swift */,
 				7026B5BF210F81B3003B4E67 /* FinishedResultViewController.swift */,
+				701E21BC2114C1BD00F6E4ED /* DisplayFinishedNoteViewController.swift */,
+				701E21BE2114CB1500F6E4ED /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -128,6 +151,7 @@
 		2E4A07AC1C42F4EB007F415F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				701E21B8211374AE00F6E4ED /* TransferNoteDelegate.swift */,
 				70140B2620F4237400A190D5 /* CoreDataHelper.swift */,
 			);
 			path = Helpers;
@@ -139,6 +163,15 @@
 				2E4A07AE1C42F539007F415F /* Date+convertToString.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42E0E3A43BC73DC15D496BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDD9CE506510B6367F895ACC /* Pods-MakeSchoolNotes.debug.xcconfig */,
+				33F798D1CDC817BEF0912497 /* Pods-MakeSchoolNotes.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7026B5B9210B7C33003B4E67 /* Timer */ = {
@@ -156,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E4A07A21C42F3B0007F415F /* Build configuration list for PBXNativeTarget "MakeSchoolNotes" */;
 			buildPhases = (
+				7016413B4BBA16865DF0FBE4 /* [CP] Check Pods Manifest.lock */,
 				2E4A078C1C42F3B0007F415F /* Sources */,
 				2E4A078D1C42F3B0007F415F /* Frameworks */,
 				2E4A078E1C42F3B0007F415F /* Resources */,
@@ -182,7 +216,9 @@
 				TargetAttributes = {
 					2E4A078F1C42F3B0007F415F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HZ277822BJ;
 						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -217,17 +253,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7016413B4BBA16865DF0FBE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeSchoolNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E4A078C1C42F3B0007F415F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E4A07B11C42F599007F415F /* ListNotesTableViewCell.swift in Sources */,
+				701E21BF2114CB1500F6E4ED /* MainViewController.swift in Sources */,
 				2E4A07AF1C42F539007F415F /* Date+convertToString.swift in Sources */,
 				7026B5BE210F819F003B4E67 /* FailedResultsViewController.swift in Sources */,
 				2E4A07AB1C42F497007F415F /* DisplayNoteViewController.swift in Sources */,
+				701E21B9211374AE00F6E4ED /* TransferNoteDelegate.swift in Sources */,
 				70140B2720F4237400A190D5 /* CoreDataHelper.swift in Sources */,
 				2E4A07941C42F3B0007F415F /* AppDelegate.swift in Sources */,
+				701E21BD2114C1BD00F6E4ED /* DisplayFinishedNoteViewController.swift in Sources */,
 				2E4A07A91C42F40B007F415F /* ListNotesTableViewController.swift in Sources */,
 				7026B5C0210F81B3003B4E67 /* FinishedResultViewController.swift in Sources */,
 				848490D31D68F5610043C60B /* MakeSchoolNotes.xcdatamodeld in Sources */,
@@ -359,8 +419,12 @@
 		};
 		2E4A07A31C42F3B0007F415F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD9CE506510B6367F895ACC /* Pods-MakeSchoolNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZ277822BJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -368,17 +432,23 @@
 				INFOPLIST_FILE = MakeSchoolNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MakeSchoolNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susanwu.writersunblock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2E4A07A41C42F3B0007F415F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F798D1CDC817BEF0912497 /* Pods-MakeSchoolNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZ277822BJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -386,10 +456,12 @@
 				INFOPLIST_FILE = MakeSchoolNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MakeSchoolNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.susanwu.writersunblock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
